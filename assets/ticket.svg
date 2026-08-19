@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 440" role="img" aria-labelledby="tTitle tDesc">
+  <title id="tTitle">I.G.H. Painting work ticket</title>
+  <desc id="tDesc">Type-and-SVG illustration — not a job photo. A Thornton work ticket with a house, fence, and industrial bay.</desc>
+  <defs>
+    <pattern id="graph" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0v16" fill="none" stroke="#d9c89a" stroke-width=".6" opacity=".55"/>
+    </pattern>
+    <pattern id="perf" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="6" cy="6" r="2.1" fill="#efe4c4"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="440" fill="#efe4c4"/>
+  <rect x="28" y="22" width="664" height="396" fill="#fff8e8" stroke="#141210" stroke-width="3"/>
+  <rect x="28" y="22" width="28" height="396" fill="url(#perf)"/>
+  <line x1="56" y1="22" x2="56" y2="418" stroke="#141210" stroke-width="1.5" stroke-dasharray="3 5"/>
+  <rect x="68" y="36" width="608" height="368" fill="url(#graph)"/>
+  <!-- header stamp -->
+  <rect x="80" y="48" width="584" height="54" fill="#141210"/>
+  <text x="96" y="72" font-family="Arial Narrow, Helvetica, sans-serif" font-size="13" font-weight="700" fill="#048CEF" letter-spacing="3">WORK TICKET · THORNTON, CO</text>
+  <text x="96" y="92" font-family="Georgia, serif" font-size="16" fill="#fff8e8">I.G.H. Painting — Knowledgeable &amp; Trustworthy</text>
+  <text x="560" y="84" font-family="Arial Narrow, Helvetica, sans-serif" font-size="22" font-weight="800" fill="#048CEF">No. 10201</text>
+  <!-- house -->
+  <g transform="translate(96 140)">
+    <path d="M20 78L110 18l90 60v92H20z" fill="#fff1d4" stroke="#141210" stroke-width="3"/>
+    <path d="M20 78L110 18l90 60" fill="none" stroke="#141210" stroke-width="4"/>
+    <rect x="48" y="98" width="36" height="52" fill="#048CEF" stroke="#141210" stroke-width="2"/>
+    <rect x="132" y="92" width="40" height="32" fill="#cfe8fb" stroke="#141210" stroke-width="2"/>
+    <path d="M132 108h40M152 92v32" stroke="#141210" stroke-width="1.5"/>
+    <rect x="168" y="130" width="52" height="40" fill="#2a2620" stroke="#141210" stroke-width="2"/>
+    <path d="M168 150h52" stroke="#8a8a8a" stroke-width="2"/>
+  </g>
+  <!-- fence -->
+  <g transform="translate(330 248)" stroke="#141210" stroke-width="3" fill="none">
+    <path d="M0 48V8M22 48V4M44 48V8M66 48V4M88 48V8M110 48V4M132 48V8"/>
+    <path d="M-8 16h148M-8 32h148"/>
+  </g>
+  <!-- industrial bay -->
+  <g transform="translate(500 168)">
+    <rect x="0" y="40" width="150" height="120" fill="#e8d9b0" stroke="#141210" stroke-width="3"/>
+    <path d="M0 40h150L128 16H22z" fill="#141210"/>
+    <rect x="18" y="72" width="48" height="56" fill="#cfe8fb" stroke="#141210" stroke-width="2"/>
+    <rect x="80" y="88" width="52" height="72" fill="#048CEF" stroke="#141210" stroke-width="2"/>
+    <path d="M80 124h52" stroke="#141210" stroke-width="2"/>
+    <rect x="18" y="136" width="22" height="8" fill="#141210"/>
+  </g>
+  <path d="M80 390c80-28 160-8 240-22 90-16 170 6 260-14 40-8 70-6 92-2" fill="none" stroke="#048CEF" stroke-width="10" stroke-linecap="round"/>
+  <text x="88" y="372" font-family="Arial Narrow, Helvetica, sans-serif" font-size="12" font-weight="700" fill="#5c5648" letter-spacing="2">EXTERIOR · INTERIOR · COMMERCIAL · INDUSTRIAL · FENCE &amp; DECK · CABINETS</text>
+</svg>
